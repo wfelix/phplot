@@ -26,6 +26,9 @@ $dados = array(
 
 $grafico->SetDataValues($dados);
 
+#Neste caso, usariamos o gráfico em barras
+$grafico->SetPlotType("bars");
+
 #Exibimos o gráfico
 $grafico->DrawGraph();
 
